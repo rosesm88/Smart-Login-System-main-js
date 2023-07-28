@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../imgs/wallpaperflare.com_wallpaper.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    /* background: var(--main-color); */
+    font-family: 'Titillium Web', sans-serif;
+}
+
+:root {
+    --main-color: #24353f;
+    --second-color: #166d7a;
+}
+
+.container{
+    padding-top: 10%;
+}
+
+input:focus {
+    border-color: var(--second-color) !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.login-form .container .row {
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+.login-form .container .row .form {
+    /* background-color: var(--main-color); */
+    background-color: transparent !important;
+    box-shadow: 0 0 40px 20px rgb(0 0 0 / 35%) !important;
+    padding: 50px !important;
+}
+
+.login-form .container .row .form h1 {
+    /* color: var(--second-color); */
+    color: var(--main-color);
+}
+
+.login-form .container .row .form input {
+    /* background-color: var(--main-color); */
+    background-color: transparent;
+    color: #ffffff8e;
+}
+
+.login-form .container .row .form .btn {
+    /* background-color: var(--main-color); */
+    background-color: transparent;
+    border-color: var(--second-color);
+    color: var(--second-color);
+    transition: background-color 0.2s linear, color 0.2s linear;
+
+}
+
+.login-form .container .row .form .btn:hover {
+    background-color: var(--second-color);
+    color: white;
+}
+
+.login-form .container .row .form p a {
+    transition: color 0.2s linear;
+}
+
+.login-form .container .row .form p a:hover {
+    text-decoration: underline;
+    color: var(--second-color);
+}
+
+.text-color {
+    color: var(--main-color) !important;
+}
+
+.logo a {
+    font-size: 20px;
+    color: bisque;
+}
+
+.logo a:hover {
+    color: var(--second-color);
+}
+
+.home {
+    min-height: 80vh;
+}
+
+.logout-btn {
+    color: bisque;
+    border-color: bisque;
+}
+
+.logout-btn:hover {
+    color: bisque;
+    background-color: var(--second-color);
+    border-color: bisque;
+}
+
+::placeholder{
+    color: bisque !important;
+}
